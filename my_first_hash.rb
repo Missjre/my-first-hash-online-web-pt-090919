@@ -1,8 +1,6 @@
 def my_hash
-  describe "#my_hash" do
-    it "uses the literal constructor to create a hash that contains key/value pairs" do 
-      expect(my_hash).to be_a(Hash)
-      expect(my_hash.keys.count).to_not eq(0)
+      porcelain_vases(my_hash).to be_a(Hash)
+    my_hash((my_hash.keys.count)+= eq(2)
     end 
 
   
