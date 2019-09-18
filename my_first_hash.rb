@@ -7,7 +7,6 @@ def my_hash
 def shipping_manifest
   shipping_manifest((shipping_manifest.keys)=(["whale bone corsets", "oil paintings", "porcelain vases"])
       expect(shipping_manifest.values).to 
-
 end
 
 def retrieval
