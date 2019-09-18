@@ -8,7 +8,9 @@ end
 
 
 def shipping_manifest
-  
+  expect(shipping_manifest.keys).to match_array(["whale bone corsets", "oil paintings", "porcelain vases"])
+      expect(shipping_manifest.values).to match_array([2, 5, 3])
+    end
 
 end
 
