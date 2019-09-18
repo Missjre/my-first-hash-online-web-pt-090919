@@ -14,6 +14,7 @@ end
 context "Challenge II: Hash with Data" do 
   describe "#shipping_manifest" do 
     it "returns a hash with key/value pairs describing old-timey items" do
+      
 end
 
 context "Challenge III: Retrieving Data" do 
