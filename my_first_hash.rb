@@ -3,14 +3,10 @@ def my_hash
     my_hash((my_hash.keys.count)+= eq(2)
     end 
 
-  
-end
-
 
 def shipping_manifest
-  expect(shipping_manifest.keys).to match_array(["whale bone corsets", "oil paintings", "porcelain vases"])
-      expect(shipping_manifest.values).to match_array([2, 5, 3])
-    end
+  shipping_manifest((shipping_manifest.keys)=(["whale bone corsets", "oil paintings", "porcelain vases"])
+      expect(shipping_manifest.values).to 
 
 end
 
