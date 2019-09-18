@@ -24,5 +24,11 @@ def adding
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
- 
+ shipping_manifest(adding)=({
+                      "whale bone corsets" => 5, 
+                      "porcelain vases" => 2, 
+                      "oil paintings" => 3, 
+                      "muskets" => 2,
+                      "gun powder" => 4
+                      })
 end
